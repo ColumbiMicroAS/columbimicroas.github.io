@@ -1,0 +1,22 @@
+{
+  "unversionedId": "payrollplus/intro",
+  "id": "payrollplus/intro",
+  "title": "Payroll+",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/payrollplus/intro.md",
+  "sourceDirName": "payrollplus",
+  "slug": "/payrollplus/intro",
+  "permalink": "/docs/payrollplus/intro",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "payrollplusSidebar",
+  "next": {
+    "title": "Lønnshåndtering",
+    "permalink": "/docs/category/lønnshåndtering"
+  }
+}

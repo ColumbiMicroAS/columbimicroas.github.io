@@ -1,0 +1,22 @@
+{
+  "unversionedId": "payrollplus/rais-module/employee",
+  "id": "payrollplus/rais-module/employee",
+  "title": "Ansatte",
+  "description": "Importer ansatte",
+  "source": "@site/docs/payrollplus/rais-module/employee.mdx",
+  "sourceDirName": "payrollplus/rais-module",
+  "slug": "/payrollplus/rais-module/employee",
+  "permalink": "/docs/payrollplus/rais-module/employee",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "payrollplusSidebar",
+  "previous": {
+    "title": "Lønnshåndtering",
+    "permalink": "/docs/category/lønnshåndtering"
+  }
+}
