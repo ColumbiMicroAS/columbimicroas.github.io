@@ -1,23 +1,20 @@
+# Dependencies
 /node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.idea/
-.env
-.env.backup
-.phpunit.result.cache
-docker-compose.override.yml
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-.vapor/
-.env.production
-.env.staging
-/public/js
-/public/css
-/public/build
-/public/mix-manifest.json
 
-.env.deploy
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
