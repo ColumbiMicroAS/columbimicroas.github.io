@@ -4,6 +4,10 @@
   padding: 2rem 0;
   width: 100%;
 }
+div a.featureLink {
+  text-decoration: none;
+  /* other styles... */
+}
 
 .featureSvg {
   height: 200px;
