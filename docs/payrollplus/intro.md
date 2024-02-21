@@ -74,5 +74,12 @@ Hvis du har tilgang til flere firmaer, velg det aktuelle firmaet øverst til hø
 ![Payroll_User_Admin_Image](/img/docimages/payroll_plus/user-admin.png)
 - Trykk på **Brukere** i menyen til venstre.
 - Trykk på **Legg til bruker**.
-- Skriv inn epostadressen til brukeren og trykk **Legg til**.
-- 
+- Skriv inn epostadressen til brukeren 
+- Velg rolle
+- Trykk **Legg til**.
+
+#### Roller
+- **Administrator** - Har tilgang til å legge til og fjerne brukere for et selskap.
+- **Bruker** - Har tilgang til å bruke modulene som selskapet har.
+
+Dette vil bli utvidet senere til å kunne gi tilgang til enkelte moduler
