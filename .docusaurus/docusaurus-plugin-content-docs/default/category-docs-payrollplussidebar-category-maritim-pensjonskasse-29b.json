@@ -1,0 +1,16 @@
+{
+  "title": "Maritim Pensjonskasse",
+  "description": "Maritim Pensjonskasse",
+  "slug": "/category/maritim-pensjonskasse",
+  "permalink": "/docs/category/maritim-pensjonskasse",
+  "navigation": {
+    "previous": {
+      "title": "Opprykk",
+      "permalink": "/docs/payrollplus/raise-module/raise"
+    },
+    "next": {
+      "title": "Instillinger",
+      "permalink": "/docs/payrollplus/pts-module/settings"
+    }
+  }
+}

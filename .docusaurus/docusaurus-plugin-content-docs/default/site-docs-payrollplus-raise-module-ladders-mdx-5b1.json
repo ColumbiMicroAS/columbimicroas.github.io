@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payrollplus/raise-module/ladders",
+  "id": "payrollplus/raise-module/ladders",
+  "title": "Lønnstiger",
+  "description": "Lønnstiger Image",
+  "source": "@site/docs/payrollplus/raise-module/ladders.mdx",
+  "sourceDirName": "payrollplus/raise-module",
+  "slug": "/payrollplus/raise-module/ladders",
+  "permalink": "/docs/payrollplus/raise-module/ladders",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "payrollplusSidebar",
+  "previous": {
+    "title": "Ansatte",
+    "permalink": "/docs/payrollplus/raise-module/employee"
+  },
+  "next": {
+    "title": "Opprykk",
+    "permalink": "/docs/payrollplus/raise-module/raise"
+  }
+}

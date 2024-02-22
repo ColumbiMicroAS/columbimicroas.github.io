@@ -1,0 +1,159 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "tutorial/intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro"
+            },
+            {
+              "id": "payrollplus/intro",
+              "path": "/docs/payrollplus/intro",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/pts-module/employee",
+              "path": "/docs/payrollplus/pts-module/employee",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/pts-module/paycodes",
+              "path": "/docs/payrollplus/pts-module/paycodes",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/pts-module/reports",
+              "path": "/docs/payrollplus/pts-module/reports",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/pts-module/settings",
+              "path": "/docs/payrollplus/pts-module/settings",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/pts-module/ships",
+              "path": "/docs/payrollplus/pts-module/ships",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/raise-module/employee",
+              "path": "/docs/payrollplus/raise-module/employee",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/raise-module/ladders",
+              "path": "/docs/payrollplus/raise-module/ladders",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "payrollplus/raise-module/raise",
+              "path": "/docs/payrollplus/raise-module/raise",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "timesheet/intro",
+              "path": "/docs/timesheet/intro",
+              "sidebar": "timesheetSidebar"
+            },
+            {
+              "id": "tutorial/intro",
+              "path": "/docs/tutorial/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/congratulations",
+              "path": "/docs/tutorial/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/create-a-document",
+              "path": "/docs/tutorial/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/create-a-page",
+              "path": "/docs/tutorial/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/markdown-features",
+              "path": "/docs/tutorial/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial/tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/lønnshåndtering",
+              "path": "/docs/category/lønnshåndtering",
+              "sidebar": "payrollplusSidebar"
+            },
+            {
+              "id": "/category/maritim-pensjonskasse",
+              "path": "/docs/category/maritim-pensjonskasse",
+              "sidebar": "payrollplusSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/tutorial/intro",
+                "label": "tutorial/intro"
+              }
+            },
+            "payrollplusSidebar": {
+              "link": {
+                "path": "/docs/payrollplus/intro",
+                "label": "payrollplus/intro"
+              }
+            },
+            "timesheetSidebar": {
+              "link": {
+                "path": "/docs/timesheet/intro",
+                "label": "timesheet/intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

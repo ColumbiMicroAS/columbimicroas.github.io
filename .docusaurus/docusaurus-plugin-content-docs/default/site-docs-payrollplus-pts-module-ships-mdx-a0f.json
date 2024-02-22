@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payrollplus/pts-module/ships",
+  "id": "payrollplus/pts-module/ships",
+  "title": "Fartøy",
+  "description": "Ships Image",
+  "source": "@site/docs/payrollplus/pts-module/ships.mdx",
+  "sourceDirName": "payrollplus/pts-module",
+  "slug": "/payrollplus/pts-module/ships",
+  "permalink": "/docs/payrollplus/pts-module/ships",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "payrollplusSidebar",
+  "previous": {
+    "title": "Instillinger",
+    "permalink": "/docs/payrollplus/pts-module/settings"
+  },
+  "next": {
+    "title": "Lønnsarter",
+    "permalink": "/docs/payrollplus/pts-module/paycodes"
+  }
+}

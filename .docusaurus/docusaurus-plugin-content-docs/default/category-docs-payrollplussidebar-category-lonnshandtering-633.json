@@ -1,0 +1,16 @@
+{
+  "title": "Lønnshåndtering",
+  "description": "Lønnshåndtering",
+  "slug": "/category/lønnshåndtering",
+  "permalink": "/docs/category/lønnshåndtering",
+  "navigation": {
+    "previous": {
+      "title": "Payroll+",
+      "permalink": "/docs/payrollplus/intro"
+    },
+    "next": {
+      "title": "Ansatte",
+      "permalink": "/docs/payrollplus/raise-module/employee"
+    }
+  }
+}

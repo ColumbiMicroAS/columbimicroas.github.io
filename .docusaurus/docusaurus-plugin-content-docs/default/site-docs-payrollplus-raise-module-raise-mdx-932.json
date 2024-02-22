@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payrollplus/raise-module/raise",
+  "id": "payrollplus/raise-module/raise",
+  "title": "Opprykk",
+  "description": "",
+  "source": "@site/docs/payrollplus/raise-module/raise.mdx",
+  "sourceDirName": "payrollplus/raise-module",
+  "slug": "/payrollplus/raise-module/raise",
+  "permalink": "/docs/payrollplus/raise-module/raise",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "payrollplusSidebar",
+  "previous": {
+    "title": "Lønnstiger",
+    "permalink": "/docs/payrollplus/raise-module/ladders"
+  },
+  "next": {
+    "title": "Maritim Pensjonskasse",
+    "permalink": "/docs/category/maritim-pensjonskasse"
+  }
+}
