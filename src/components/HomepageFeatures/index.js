@@ -8,7 +8,7 @@ const FeatureList = [
         Img: require('@site/static/img/stock/money_step.jpg').default,
         link: '/docs/category/lønnshåndtering',
         description: (
-            <p>
+            <p align={'left'}>
                 Payroll+ Lønnshåndtering vil hjelpe deg med å sette lønnstiger for de ansatte som vil hjelpe deg med å
                 holde orden på lønnsøkninger.
 
@@ -20,8 +20,18 @@ const FeatureList = [
         Img: require('@site/static/img/stock/fishingship.jpg').default,
         link: '/docs/category/maritim-pensjonskasse',
         description: (
-            <p>
+            <p align={'left'}>
                 Payroll+ Maritim Pensjonskasse er et system for som vil hjelpe deg med å lage MPK-rapporter fra dine Visma Payroll data.
+            </p>
+        ),
+    },
+    {
+        title: 'Payroll+ NAV refusjon (K27)',
+        Img: require('@site/static/img/stock/doctor2.jpg').default,
+        link: '/docs/category/nav-refusjon-k27',
+        description: (
+            <p align={'left'}>
+                Payroll+ NAV Refusjon (K27) vil man kunne importere K27-meldingene fra NAV og sende disse til Visma Payroll.
             </p>
         ),
     },

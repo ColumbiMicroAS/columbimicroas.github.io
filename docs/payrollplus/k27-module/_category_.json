@@ -1,0 +1,9 @@
+
+{
+  "label": "NAV Refusjon (K27)",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "test",
+  }
+}
