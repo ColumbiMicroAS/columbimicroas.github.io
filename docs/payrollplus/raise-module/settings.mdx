@@ -3,22 +3,26 @@ sidebar_position: 1
 ---
 
 # Instillinger
-![Raise Image](/img/docimages/payroll_plus/raise/raise-check.jpg)
-Opprykk kjøres automatisk natt til 1. hver måned. Du kan også kjøre opprykk manuelt ved å trykke på knappen **SJEKK OPRYKK** hvor du også kan sette max dato for når den skal sjekke.
+![Raise Image](/img/docimages/payroll_plus/raise/raise-settings.jpg)
 
-Når en sjekk er kjørt vil det oppretes en logg. Den har en grei oppsummering på toppen, og blir litt mer detaljert under.
-Her vil man se logikken som er brukt for å finne hvem som kvalifiserer for opprykk. Det kan være noe kryptisk, men er hjelpsomt for å se hvorfor noen som man forventet ikke ble med.
-![Raise Image](/img/docimages/payroll_plus/raise/raise-check-log.jpg)
+## Kilde startdato
+Dette er valget om hvor anisiennitetsdatoen skal hentes fra.
 
-## Sende opprykk til Visma Payroll
-![Raise Image](/img/docimages/payroll_plus/raise/raise-send.jpg)
-Du kan markere de du vil sende til Visma Employee og trykke på knappen **OPPDATER EMPLOYEE**.
-Hvis en ansatt kvalifiserer for flere opprykk, vil du kun sende én.
+ **Startdato stilling/avtale** - Startdato for aktiv stilling/avtale i Visma Employee
 
-Når du sender kan du enten bruke dato fra tabellen eller velge en overkjørende dato. Sender du flere samtidig vil alle bruke den samme datoen om du velger å overstyre.
-Lønnen vil gjelde fra den datoen og til det er en annen dato satt i Visma Employee. Det vil si at hvis du kan trygt sende en økning på tidligere trinn uten at det vil overstyre en senere økning.
+ **Jubileumsansiennitet - Eldste startdato** - Første startdato i firmaet Visma Employee
 
-![Raise Image](/img/docimages/payroll_plus/raise/raise-history.jpg)
+ **Jubileumsansiennitet - Siste startdato** - Seneste startdato i firmaet i Visma Employee
+
+## Tillat endring av lønn tilbake i tid
+Dette må aktiviseres om man vil ha tilbakevirkende kraft på lønnsendringer.
+Dette tillater å se på eldre trinn og endre lønn på disse.
+
+Eksempel:
+- En ansatt har trinnøkning 1. juni og går fra trinn 5 til trinn 6.
+- I august er lønnsforhandlinger klart, og disse skal gjelde fra 1. mai.
+
+Med denne innstilling aktivert vil også lønn de hadde på trinn 5 bli oppdatert fra 1. mai til 1. juni.
 
 
 
