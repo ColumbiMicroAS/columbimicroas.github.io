@@ -56,6 +56,21 @@ Please follow standards used in existing documentation when contributing new con
 If you think something can be improved, feel free to discuss this so we can decide the best way forward.
 The goal is to make the documentation as clear and easy to understand as possible for all users.
 
+### Starting documenting a new application
+Copy an existing documentation folder under docs, and give it a suitable name following case standard of the other folders.
+
+To make this visible on the top bar use edit `docusaurus.config.js` and add an entry in `items` under `navbar` section, e.g.
+
+```js
+   {
+    type: 'docSidebar',
+        position: 'left',
+        sidebarId: 'payrollplusSidebar',
+        label: 'Payroll+',
+   },
+```
+If you have any questions, please ask. Erik Bergh is the current maintainer of this documentation site.
+
 ### Adding date to documentation pages
 So we can see how current the documentation is, we add a "Last Updated" date to each page.
 To do this, add an `updated` field to the front matter of the markdown file, e.g.
