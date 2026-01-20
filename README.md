@@ -64,9 +64,9 @@ To make this visible on the top bar use edit `docusaurus.config.js` and add an e
 ```js
    {
     type: 'docSidebar',
-        position: 'left',
-        sidebarId: 'payrollplusSidebar',
-        label: 'Payroll+',
+    position: 'left',
+    sidebarId: 'payrollplusSidebar',
+    label: 'Payroll+',
    },
 ```
 If you have any questions, please ask. Erik Bergh is the current maintainer of this documentation site.
