@@ -4,7 +4,6 @@ This website is built using [Docusaurus 3](https://docusaurus.io/), a modern sta
 
 ### Installation
 
-
 ```
 $ npm install 
 ```
@@ -50,3 +49,27 @@ $ GIT_USER=<Your GitHub username> npm run deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Contributing
+
+Please follow standards used in existing documentation when contributing new content or making changes.
+If you think something can be improved, feel free to discuss this so we can decide the best way forward.
+The goal is to make the documentation as clear and easy to understand as possible for all users.
+
+### Adding date to documentation pages
+So we can see how current the documentation is, we add a "Last Updated" date to each page.
+To do this, add an `updated` field to the front matter of the markdown file, e.g.
+```md
+---
+sidebar_position: 1
+updated: 2026-01-20
+---
+``` 
+Then, at the bottom of the page, add the following code snippet:
+```md
+:::info Last Updated
+{new Date(frontMatter.updated).toLocaleDateString()}
+:::
+``` 
+
+
