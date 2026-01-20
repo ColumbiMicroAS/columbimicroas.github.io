@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+updated: 2024-02-22
 ---
 
 # Payroll+ 
@@ -83,3 +84,7 @@ Hvis du har tilgang til flere firmaer, velg det aktuelle firmaet øverst til hø
 - **Bruker** - Har tilgang til å bruke modulene som selskapet har.
 
 Dette vil bli utvidet senere til å kunne gi tilgang til enkelte moduler
+
+:::info Last Updated
+{new Date(frontMatter.updated).toLocaleDateString()}
+:::
