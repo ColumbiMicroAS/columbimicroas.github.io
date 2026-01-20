@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payrollplus/raise-module/settings",
+  "id": "payrollplus/raise-module/settings",
+  "title": "Instillinger",
+  "description": "Raise Image",
+  "source": "@site/docs/payrollplus/raise-module/settings.mdx",
+  "sourceDirName": "payrollplus/raise-module",
+  "slug": "/payrollplus/raise-module/settings",
+  "permalink": "/docs/payrollplus/raise-module/settings",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "payrollplusSidebar",
+  "previous": {
+    "title": "Lønnshåndtering",
+    "permalink": "/docs/category/lønnshåndtering"
+  },
+  "next": {
+    "title": "Ansatte",
+    "permalink": "/docs/payrollplus/raise-module/employee"
+  }
+}

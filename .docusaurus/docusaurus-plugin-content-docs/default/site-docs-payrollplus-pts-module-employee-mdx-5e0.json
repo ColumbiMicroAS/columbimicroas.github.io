@@ -1,0 +1,26 @@
+{
+  "unversionedId": "payrollplus/pts-module/employee",
+  "id": "payrollplus/pts-module/employee",
+  "title": "Ansatte",
+  "description": "Employees Image",
+  "source": "@site/docs/payrollplus/pts-module/employee.mdx",
+  "sourceDirName": "payrollplus/pts-module",
+  "slug": "/payrollplus/pts-module/employee",
+  "permalink": "/docs/payrollplus/pts-module/employee",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "payrollplusSidebar",
+  "previous": {
+    "title": "Lønnsarter",
+    "permalink": "/docs/payrollplus/pts-module/paycodes"
+  },
+  "next": {
+    "title": "Rapporter",
+    "permalink": "/docs/payrollplus/pts-module/reports"
+  }
+}
