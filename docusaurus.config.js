@@ -25,7 +25,12 @@ const config = {
   deploymentBranch: 'gh-pages', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -47,6 +52,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
