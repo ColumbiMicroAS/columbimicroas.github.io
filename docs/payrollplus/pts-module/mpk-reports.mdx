@@ -1,10 +1,45 @@
 ---
 sidebar_position: 6
-updated: 2026-02-28
+updated: 2026-04-30
 ---
 
 # MPK-apporter
 ![Reports Image](/img/docimages/payroll_plus/mpk/reports.png)
+
+I oversikten kan du se de de genererte MPK-rapportene og om det er opprettet en xml-fil for innrapportering til Maritim Pensjonskasse.
+
+## Generere rapport
+For å generere ny rapport trykker du på **Generer rapport**. Velg år og termin og trykk på **Genrerer rapportdata**.
+![New report Image](/img/docimages/payroll_plus/mpk/report_new.png)
+
+Den vil da henter de lønnsposter som er relevante ut fra [lønnsartene](/docs/payrollplus/pts-module/paycodes)  som er satt opp og generere rapporter for hvert fartøy basert på manskapskobingen som er satt i [instillingene](/docs/payrollplus/pts-module/settings#mannskapskobling).
+
+## Rapportdetaljer
+![Report Lines Image](/img/docimages/payroll_plus/mpk/report_lines_1.png)
+
+Rapporten koplerer inn informasjon om ansatte. Dette er for å vise data som er korrekt i det tidspunktet rapporten genereres.
+Hvis en ansatt endrer navn, stilling, premiegruppe eventuelt noe annet så vil ikke det påvirke rapporten som er generert.
+Hvis data på en ansatt har blitt endret etter at rapportdataen ble generert vil det komme opp en varsel nederst på siden med tilbud om å regenerere rapporten for å få oppdatert data.
+Dette må kun gjøres om den nye dataen skal på den allerede genererte rapporten.
+
+### Redigere rapportlinjer
+![Report Lines Edit Image](/img/docimages/payroll_plus/mpk/report_lines_edit.png)
+
+Ved å trykke på den grønne blyanten på enden av hver linje kan du endre informasjon som ikke kommer med det vi henter fra visma. Det er antall dager per måned og antall dager dekket av NAV per måned, pluss en referanse om ditt firma bruker det.
+Disse feltene får standardverdien 1 på antall dager, og 0 på NAV-dager.
+Husk å trykke på den grønne knappen for å lagre etter du har gjort endringer.
+
+### Generer XML-fil
+Når rapporten er klar til å sendes til MPK kan du trykke på **Generer XML-fil** for å få en xml-fil som kan lastes opp i MPK sitt system for innrapportering.
+Denne filen kan lastes ned ved å klikke på knappen **Last ned XML**.
+
+Hvis du har generert en XML-fil og endrer på en rapportlinje vil du få en vasel øverst at dataen har blitt endret og at du må regenerere XML-filen for å få med de nye endringene i filen.
+
+### Lås rapporten
+![Report Lines Locked Image](/img/docimages/payroll_plus/mpk/report_lines_locked.png)
+
+Når en rapport er klar og sendt inn kan du trykke på **Lås rapport**. Dette vil låse rapporten slik at ingen kan gjøre endringer, og alle varsler om at ansattdata har endret seg vil forsvinne.
+Det vil fortsatt være mulig å se rapporten og laste ned XML-filen.
 
 
 
