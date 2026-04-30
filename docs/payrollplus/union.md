@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
-updated: 2026-03-02
+updated: 2026-04-30
 ---
 # Fagforeninger
+Den som har administratorrettigeheter på firmaet i Payroll+ kan finne **Fagforeninger** i menyen til venstre under **Administrator**.
 
 ![Payroll_Unions Image](/img/docimages/payroll_plus/union-admin.png)
 
