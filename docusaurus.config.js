@@ -90,6 +90,18 @@ const config = {
             sidebarId: 'timesheetSidebar',
             label: 'Timesheet',
           },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'identitySidebar',
+            label: 'Identity',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'connectSidebar',
+            label: 'connect',
+          },
        //   {to: '/blog', label: 'Blog', position: 'left'},
        //    {
        //      href: 'https://github.com/facebook/docusaurus',
