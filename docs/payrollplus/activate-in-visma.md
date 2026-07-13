@@ -9,7 +9,7 @@ Dette utføres gjerne av en konsulent fra din partner eller systemansvarlig i di
 Visma.net. Du må ha roller Customer Admin for å kunne sjekke ut de punktene som beskrevet i dette
 kapittelet. 
 
-### Akrivere Kudnes App Store
+### Aktivere Kudnes App Store
 En Customer Administrator (forhandler eller kunden selv) må aktiverer tjenesten App Store i Visma.net
 Admin på det aktuelle firmaet. Hvis App Store mangler kan det tyde på at lisensen er feil.
 
